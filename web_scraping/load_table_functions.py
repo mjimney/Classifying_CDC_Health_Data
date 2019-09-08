@@ -1,7 +1,7 @@
 import pandas as pd
 
 ## File path to Raw Data
-read_path = '../raw_data/'
+read_path = '../data/'
 
 def create_tables_multiyear(tables,col_dict,studies,inx='subject_id',add_study=False):
     '''
